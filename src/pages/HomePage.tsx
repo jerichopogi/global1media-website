@@ -1,5 +1,6 @@
 import { Hero } from "@/components/sections/Hero";
 import { StatsStrip } from "@/components/sections/StatsStrip";
+import { OnAirNow } from "@/components/sections/OnAirNow";
 import { Partners } from "@/components/sections/Partners";
 import { AboutTeaser } from "@/components/sections/AboutTeaser";
 import { SolutionsTeaser } from "@/components/sections/SolutionsTeaser";
@@ -11,6 +12,7 @@ export function HomePage() {
     <>
       <Hero />
       <StatsStrip />
+      <OnAirNow />
       <AboutTeaser />
       <SolutionsTeaser />
       <StationsTeaser />
